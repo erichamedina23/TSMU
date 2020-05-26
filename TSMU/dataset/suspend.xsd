@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="suspend" targetNamespace="http://tempuri.org/suspend.xsd" xmlns:mstns="http://tempuri.org/suspend.xsd" xmlns="http://tempuri.org/suspend.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="suspend" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="suspend" msprop:Generator_UserDSName="suspend">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="suspend" msprop:Generator_TableClassName="suspendDataTable" msprop:Generator_TableVarName="tablesuspend" msprop:Generator_TablePropName="_suspend" msprop:Generator_RowDeletingName="suspendRowDeleting" msprop:Generator_RowChangingName="suspendRowChanging" msprop:Generator_RowEvHandlerName="suspendRowChangeEventHandler" msprop:Generator_RowDeletedName="suspendRowDeleted" msprop:Generator_UserTableName="suspend" msprop:Generator_RowChangedName="suspendRowChanged" msprop:Generator_RowEvArgName="suspendRowChangeEvent" msprop:Generator_RowClassName="suspendRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="suspendid" msprop:Generator_ColumnVarNameInTable="columnsuspendid" msprop:Generator_ColumnPropNameInRow="suspendid" msprop:Generator_ColumnPropNameInTable="suspendidColumn" msprop:Generator_UserColumnName="suspendid" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl" msprop:Generator_ColumnVarNameInTable="columntgl" msprop:Generator_ColumnPropNameInRow="tgl" msprop:Generator_ColumnPropNameInTable="tglColumn" msprop:Generator_UserColumnName="tgl" type="xs:string" minOccurs="0" />
+              <xs:element name="paid" msprop:Generator_ColumnVarNameInTable="columnpaid" msprop:Generator_ColumnPropNameInRow="paid" msprop:Generator_ColumnPropNameInTable="paidColumn" msprop:Generator_UserColumnName="paid" type="xs:string" minOccurs="0" />
+              <xs:element name="dept" msprop:Generator_ColumnVarNameInTable="columndept" msprop:Generator_ColumnPropNameInRow="dept" msprop:Generator_ColumnPropNameInTable="deptColumn" msprop:Generator_UserColumnName="dept" type="xs:string" minOccurs="0" />
+              <xs:element name="prno" msprop:Generator_ColumnVarNameInTable="columnprno" msprop:Generator_ColumnPropNameInRow="prno" msprop:Generator_ColumnPropNameInTable="prnoColumn" msprop:Generator_UserColumnName="prno" type="xs:string" minOccurs="0" />
+              <xs:element name="cekno" msprop:Generator_ColumnVarNameInTable="columncekno" msprop:Generator_ColumnPropNameInRow="cekno" msprop:Generator_ColumnPropNameInTable="ceknoColumn" msprop:Generator_UserColumnName="cekno" type="xs:string" minOccurs="0" />
+              <xs:element name="curyid" msprop:Generator_ColumnVarNameInTable="columncuryid" msprop:Generator_ColumnPropNameInRow="curyid" msprop:Generator_ColumnPropNameInTable="curyidColumn" msprop:Generator_UserColumnName="curyid" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="remark" msprop:Generator_ColumnVarNameInTable="columnremark" msprop:Generator_ColumnPropNameInRow="remark" msprop:Generator_ColumnPropNameInTable="remarkColumn" msprop:Generator_UserColumnName="remark" type="xs:string" minOccurs="0" />
+              <xs:element name="descr" msprop:Generator_ColumnVarNameInTable="columndescr" msprop:Generator_ColumnPropNameInRow="descr" msprop:Generator_ColumnPropNameInTable="descrColumn" msprop:Generator_UserColumnName="descr" type="xs:string" minOccurs="0" />
+              <xs:element name="coa" msprop:Generator_ColumnVarNameInTable="columncoa" msprop:Generator_ColumnPropNameInRow="coa" msprop:Generator_ColumnPropNameInTable="coaColumn" msprop:Generator_UserColumnName="coa" type="xs:string" minOccurs="0" />
+              <xs:element name="subcoa" msprop:Generator_ColumnVarNameInTable="columnsubcoa" msprop:Generator_ColumnPropNameInRow="subcoa" msprop:Generator_ColumnPropNameInTable="subcoaColumn" msprop:Generator_UserColumnName="subcoa" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

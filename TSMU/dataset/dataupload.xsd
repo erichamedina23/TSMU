@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dataupload" targetNamespace="http://tempuri.org/dataupload.xsd" xmlns:mstns="http://tempuri.org/dataupload.xsd" xmlns="http://tempuri.org/dataupload.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dataupload" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dataupload" msprop:Generator_UserDSName="dataupload">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataupload" msprop:Generator_TableClassName="datauploadDataTable" msprop:Generator_TableVarName="tabledataupload" msprop:Generator_TablePropName="_dataupload" msprop:Generator_RowDeletingName="datauploadRowDeleting" msprop:Generator_RowChangingName="datauploadRowChanging" msprop:Generator_RowEvHandlerName="datauploadRowChangeEventHandler" msprop:Generator_RowDeletedName="datauploadRowDeleted" msprop:Generator_UserTableName="dataupload" msprop:Generator_RowChangedName="datauploadRowChanged" msprop:Generator_RowEvArgName="datauploadRowChangeEvent" msprop:Generator_RowClassName="datauploadRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tgl1" msprop:Generator_ColumnVarNameInTable="columntgl1" msprop:Generator_ColumnPropNameInRow="tgl1" msprop:Generator_ColumnPropNameInTable="tgl1Column" msprop:Generator_UserColumnName="tgl1" type="xs:string" minOccurs="0" />
+              <xs:element name="docbal" msprop:Generator_ColumnVarNameInTable="columndocbal" msprop:Generator_ColumnPropNameInRow="docbal" msprop:Generator_ColumnPropNameInTable="docbalColumn" msprop:Generator_UserColumnName="docbal" type="xs:string" minOccurs="0" />
+              <xs:element name="bankid" msprop:Generator_ColumnVarNameInTable="columnbankid" msprop:Generator_ColumnPropNameInRow="bankid" msprop:Generator_ColumnPropNameInTable="bankidColumn" msprop:Generator_UserColumnName="bankid" type="xs:string" minOccurs="0" />
+              <xs:element name="refnbr1" msprop:Generator_ColumnVarNameInTable="columnrefnbr1" msprop:Generator_ColumnPropNameInRow="refnbr1" msprop:Generator_ColumnPropNameInTable="refnbr1Column" msprop:Generator_UserColumnName="refnbr1" type="xs:string" minOccurs="0" />
+              <xs:element name="vrno" msprop:Generator_ColumnVarNameInTable="columnvrno" msprop:Generator_ColumnPropNameInRow="vrno" msprop:Generator_ColumnPropNameInTable="vrnoColumn" msprop:Generator_UserColumnName="vrno" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl" msprop:Generator_ColumnVarNameInTable="columntgl" msprop:Generator_ColumnPropNameInRow="tgl" msprop:Generator_ColumnPropNameInTable="tglColumn" msprop:Generator_UserColumnName="tgl" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="vendid" msprop:Generator_ColumnVarNameInTable="columnvendid" msprop:Generator_ColumnPropNameInRow="vendid" msprop:Generator_ColumnPropNameInTable="vendidColumn" msprop:Generator_UserColumnName="vendid" type="xs:string" minOccurs="0" />
+              <xs:element name="origdocamt" msprop:Generator_ColumnVarNameInTable="columnorigdocamt" msprop:Generator_ColumnPropNameInRow="origdocamt" msprop:Generator_ColumnPropNameInTable="origdocamtColumn" msprop:Generator_UserColumnName="origdocamt" type="xs:string" minOccurs="0" />
+              <xs:element name="refnbr" msprop:Generator_ColumnVarNameInTable="columnrefnbr" msprop:Generator_ColumnPropNameInRow="refnbr" msprop:Generator_ColumnPropNameInTable="refnbrColumn" msprop:Generator_UserColumnName="refnbr" type="xs:string" minOccurs="0" />
+              <xs:element name="curydocbal" msprop:Generator_ColumnVarNameInTable="columncurydocbal" msprop:Generator_ColumnPropNameInRow="curydocbal" msprop:Generator_ColumnPropNameInTable="curydocbalColumn" msprop:Generator_UserColumnName="curydocbal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="cashsub" msprop:Generator_ColumnVarNameInTable="columncashsub" msprop:Generator_ColumnPropNameInRow="cashsub" msprop:Generator_ColumnPropNameInTable="cashsubColumn" msprop:Generator_UserColumnName="cashsub" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

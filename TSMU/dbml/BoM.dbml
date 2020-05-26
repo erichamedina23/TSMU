@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BoM" Class="BoMDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MYNOTE\SQL2008R2;Initial Catalog=BoM;User ID=sa" SettingsObjectName="TSMU.My.MySettings" SettingsPropertyName="BoMConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.bomh" Member="bomhs">
+    <Type Name="bomh">
+      <Column Name="bomid" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tgl" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="invtid" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="descr" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="siteid" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="runner" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ct" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="mc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cavity" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="wc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="allowance" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mp" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="created_by" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="created_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="updated_by" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="updated_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.bom" Member="boms">
+    <Type Name="bom">
+      <Column Name="bomid" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="parentid" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="invtid" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="descr" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="qty" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
